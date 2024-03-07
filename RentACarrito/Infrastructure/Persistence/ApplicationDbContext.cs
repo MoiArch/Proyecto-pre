@@ -6,7 +6,7 @@ using Domain.Vehiculos;
 using Domain.Reservaciones;
 using MediatR;
 
-namespace Insfraestructure.Persistance;
+namespace Insfraestructure.Persistence;
 
 public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWork
 {

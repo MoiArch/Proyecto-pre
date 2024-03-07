@@ -2,7 +2,7 @@ using Domain.Vehiculos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Insfraestructure.Persistance.Configuration;
+namespace Insfraestructure.Persistence.Configuration;
 
 public class VehiculoConfiguration : IEntityTypeConfiguration<Vehiculo>
 {

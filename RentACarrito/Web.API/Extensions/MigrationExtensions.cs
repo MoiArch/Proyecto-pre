@@ -1,4 +1,4 @@
-using Insfraestructure.Persistance;
+using Insfraestructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace Web.API.Extensions;

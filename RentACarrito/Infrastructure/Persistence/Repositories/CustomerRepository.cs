@@ -1,7 +1,7 @@
 using Domain.Customers;
 using Microsoft.EntityFrameworkCore;
 
-namespace Insfraestructure.Persistance.Repositories;
+namespace Insfraestructure.Persistence.Repositories;
 
 public class CustomerRepository : ICustomerRepository
 {

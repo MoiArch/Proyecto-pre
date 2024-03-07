@@ -1,5 +1,3 @@
-
-
 namespace Web.API;
 
 public static class DependecyInjecttion

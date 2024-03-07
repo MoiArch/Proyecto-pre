@@ -1,7 +1,7 @@
 using Domain.Reservaciones;
 using Microsoft.EntityFrameworkCore;
 
-namespace Insfraestructure.Persistance.Repositories;
+namespace Insfraestructure.Persistence.Repositories;
 
 public class ReservacionRepository : IReservacionRepository
 {
