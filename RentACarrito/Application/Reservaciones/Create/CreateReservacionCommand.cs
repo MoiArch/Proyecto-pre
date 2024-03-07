@@ -3,7 +3,7 @@ using MediatR;
 
 namespace Application.Reservaciones.Create;
 
-public record CreateReservationCommand(
+public record CreateReservacionCommand(
     string Name,
     string LastName,
     string Email,

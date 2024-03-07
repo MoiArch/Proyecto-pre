@@ -3447,11 +3447,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
+            "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+              "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
             },
-            "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+            "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
             }
           }
         }

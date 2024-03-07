@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Application.Reservaciones.Create;
 
-public sealed class CreateReservacionCommandHandler : IRequestHandler<CreateReservationCommand, ErrorOr<Unit>>
+public sealed class CreateReservacionCommandHandler : IRequestHandler<CreateReservacionCommand, ErrorOr<Unit>>
 {
     private readonly IReservacionRepository _reservacionRepository;
     private readonly IUnitOfWork _unitOfWork;
@@ -15,7 +15,7 @@ public sealed class CreateReservacionCommandHandler : IRequestHandler<CreateRese
         _reservacionRepository = reservacionRepository ?? throw new ArgumentNullException(nameof(reservacionRepository));
         _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
     }
-    public async Task<ErrorOr<Unit>> Handle(CreateReservationCommand command, CancellationToken cancellationToken)
+    public async Task<ErrorOr<Unit>> Handle(CreateReservacionCommand command, CancellationToken cancellationToken)
     {
         try
         {
