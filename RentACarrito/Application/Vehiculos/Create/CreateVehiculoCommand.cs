@@ -1,3 +1,4 @@
+using ErrorOr;
 using MediatR;
 
 namespace Application.Vehiculos.Create;
@@ -8,4 +9,4 @@ public record CreateVehiculoCommand(
     string Model,
     string Year,
     string Price
-) : IRequest<Unit>;
+) : IRequest<ErrorOr<Unit>>;

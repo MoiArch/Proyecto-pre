@@ -1,3 +1,4 @@
+using ErrorOr;
 using MediatR;
 
 namespace Application.Reservaciones.Create;
@@ -8,4 +9,4 @@ public record CreateReservationCommand(
     string Email,
     string PhoneNumber,
     string Date
-) : IRequest<Unit>;
+) : IRequest<ErrorOr<Unit>>;
