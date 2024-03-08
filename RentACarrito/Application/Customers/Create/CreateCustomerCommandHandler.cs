@@ -17,43 +17,37 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
     }
     public async Task<ErrorOr<Unit>> Handle(CreateCustomerCommand command, CancellationToken cancellationToken)
     {
-        try
+
+        if (PhoneNumber.Create(command.PhoneNumber) is not PhoneNumber phoneNumber)
         {
-            if (PhoneNumber.Create(command.PhoneNumber) is not PhoneNumber phoneNumber)
-            {
-                return Error.Validation("Customer.PhoneNumber", "Phone Number Invalid");
-            }
-
-            if (DuiNumber.Create(command.DuiNumber) is not DuiNumber duiNumber)
-            {
-                return Error.Validation("Customer.DuiNumber", "Dui Number Invalid");
-            }
-
-            if (Address.Create(command.Departamento, command.Municipio, command.Distrito, command.Direccion) is not Address address)
-            {
-                return Error.Validation("Customer.Address", "Address Invalid");
-            }
-
-            var customer = new Customer(
-                new CustomerId(Guid.NewGuid()),
-                command.Name,
-                command.LastName,
-                command.Email,
-                duiNumber,
-                phoneNumber,
-                address,
-                true
-            );
-
-            await _customerRepository.Add(customer);
-
-            await _unitOfWork.SaveChangesAsync(cancellationToken);
-
-            return Unit.Value;
+            return Error.Validation("Customer.PhoneNumber", "Phone Number Invalid");
         }
-        catch (Exception ex)
+
+        if (DuiNumber.Create(command.DuiNumber) is not DuiNumber duiNumber)
         {
-            return Error.Failure("CreateCustomer.Failure", ex.Message);
+            return Error.Validation("Customer.DuiNumber", "Dui Number Invalid");
         }
+
+        if (Address.Create(command.Departamento, command.Municipio, command.Distrito, command.Direccion) is not Address address)
+        {
+            return Error.Validation("Customer.Address", "Address Invalid");
+        }
+
+        var customer = new Customer(
+            new CustomerId(Guid.NewGuid()),
+            command.Name,
+            command.LastName,
+            command.Email,
+            duiNumber,
+            phoneNumber,
+            address,
+            true
+        );
+
+        await _customerRepository.Add(customer);
+
+        await _unitOfWork.SaveChangesAsync(cancellationToken);
+
+        return Unit.Value;
     }
 }
