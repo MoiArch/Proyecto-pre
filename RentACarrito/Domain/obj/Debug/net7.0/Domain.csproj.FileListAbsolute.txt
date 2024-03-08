@@ -10,3 +10,16 @@ C:\Users\oniichan\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\re
 C:\Users\oniichan\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.pdb
 C:\Users\oniichan\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\ref\Domain.dll
 C:\Users\oniichan\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\Anderson\Documents\Proyecto-pre\RentACarrito\Domain\obj\Debug\net7.0\ref\Domain.dll
