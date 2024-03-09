@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+    "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

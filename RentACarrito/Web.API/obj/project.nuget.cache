@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q/ebljsAm7MsUcOvHogup2mscsP207Yv4/F8+aMY65y1UHb+YFCTAj442b9e4/jfIgBkqIA6pRSbYN3BDdyicQ==",
+  "dgSpecHash": "4YShrq2Dpi6/NUwVVLanN9WpxR0rIB5VcqK+g/VGfgQeKAa1No92P1ns+G/h7sKiYuSysSeVtGpzeR7o6UB+DQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj",
+  "projectFilePath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
