@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj": {}
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\obj\\",
+        "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\oniichan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Anderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\oniichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
               }
             }
           }
@@ -43,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -91,25 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
+        "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\oniichan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Anderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\oniichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,7 +103,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,11 +115,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,25 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\obj\\",
+        "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\oniichan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Anderson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\oniichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,18 +168,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
               },
-              "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
               }
             }
           }
@@ -212,11 +187,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -244,7 +214,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
