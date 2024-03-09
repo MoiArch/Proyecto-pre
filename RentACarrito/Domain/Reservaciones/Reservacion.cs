@@ -16,15 +16,15 @@ public sealed class Reservacion : AggregateRoot
         Date = date;
     }
 
-    private Reservacion()
-    {
-
-    }
-
     public ReservacionId Id { get; private set; }
     public string Name { get; private set; } = string.Empty;
     public string LastName { get; private set; } = string.Empty;
     public string Email { get; private set; } = string.Empty;
     public PhoneNumber PhoneNumber { get; private set; }
-    public string Date { get; private set; } 
+    public string Date { get; private set; }
+
+    public static Reservacion UpdateReservacion(Guid id, string name1, string name2, string lastName, string email, PhoneNumber phoneNumber, string date)
+    {
+        throw new NotImplementedException();
+    }
 }
