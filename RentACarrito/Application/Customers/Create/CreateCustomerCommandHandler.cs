@@ -44,7 +44,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
             true
         );
 
-        await _customerRepository.Add(customer);
+        _customerRepository.Add(customer);
 
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 

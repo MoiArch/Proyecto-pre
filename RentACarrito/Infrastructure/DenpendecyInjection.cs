@@ -3,6 +3,7 @@ using Domain.Customers;
 using Domain.Primitives;
 using Domain.Reservaciones;
 using Domain.Vehiculos;
+using Infrastructure.Persistence.Repositories;
 using Insfraestructure.Persistence;
 using Insfraestructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;

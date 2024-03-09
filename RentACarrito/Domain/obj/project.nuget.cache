@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Snylgie16ltjTgiTVH1Jk47gDdy+uktNKjH+s6qsryR1a31FpIz0ZnhGkkumgGVHBYYhB3rlvtbIB4aftkxLog==",
+  "dgSpecHash": "9kJzbQ/Be5vd6qde0sGJS3ocr1PhWXsz1bWsQ6m6WxfTX6b1kOAl3YTXoupcI5vYmlr7c+X6xntdYCbtNnEnzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+  "projectFilePath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\Anderson\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
