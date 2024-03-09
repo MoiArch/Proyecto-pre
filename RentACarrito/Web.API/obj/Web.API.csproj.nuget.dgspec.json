@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj": {}
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\oniichan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\obj\\",
+        "outputPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oniichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\oniichan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oniichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,11 +174,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
               },
-              "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
               }
             }
           }
@@ -218,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj": {
+    "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj",
+        "projectUniqueName": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj",
         "projectName": "Web.API",
-        "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj",
+        "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\Web.API.csproj",
         "packagesPath": "C:\\Users\\oniichan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\obj\\",
+        "outputPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Web.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oniichan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -242,8 +242,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
+              "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
               },
               "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj"

@@ -23,8 +23,8 @@ public sealed class Reservacion : AggregateRoot
     public PhoneNumber PhoneNumber { get; private set; }
     public string Date { get; private set; }
 
-    public static Reservacion UpdateReservacion(Guid id, string name1, string name2, string lastName, string email, PhoneNumber phoneNumber, string date)
+    public static Reservacion UpdateReservacion(Guid id, string name, string lastName, string email, string email1, PhoneNumber phoneNumber, string date)
     {
-        throw new NotImplementedException();
+         return new Reservacion(new ReservacionId(id), name, lastName, email, phoneNumber,date );
     }
 }

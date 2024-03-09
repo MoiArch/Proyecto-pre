@@ -33,7 +33,7 @@ public sealed class CreateReservacionCommandHandler : IRequestHandler<CreateRese
                 command.Date
             );
 
-            _reservacionRepository.Add(reservacion);
+             _reservacionRepository.Add(reservacion);
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 

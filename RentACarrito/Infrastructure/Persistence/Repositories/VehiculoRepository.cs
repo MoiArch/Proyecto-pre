@@ -1,6 +1,6 @@
 
 using Domain.Vehiculos;
-using Insfraestructure.Persistence;
+using Insfrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistence.Repositories;
