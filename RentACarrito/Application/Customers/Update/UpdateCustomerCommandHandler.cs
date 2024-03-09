@@ -22,22 +22,24 @@ internal sealed class UpdateCustomerCommandHandler : IRequestHandler<UpdateCusto
             return Error.NotFound("Customer.NotFound", "The customer with the provide Id was not found.");
         }
 
+        if (DuiNumber.Create(command.DuiNumber) is not DuiNumber duiNumber)
+        {
+            return Error.Validation("Customer.DuiNumber", "dui number has not valid format.");
+        }
+
         if (PhoneNumber.Create(command.PhoneNumber) is not PhoneNumber phoneNumber)
         {
             return Error.Validation("Customer.PhoneNumber", "Phone number has not valid format.");
         }
-        if (DuiNumber.Create(command.DuiNumber) is not DuiNumber duiNumber)
-        {
-            return Error.Validation("Customer.DuiNumber", "DUI number has not valid format.");
-        }
 
-        if (Address.Create(command.Departamento, command.Municipio, command.Distrito, command.Direccion
-        ) is not Address address)
+        if (Address.Create(command.Departamento, command.Municipio, command.Distrito, command.Direccion) is not Address address)
         {
             return Error.Validation("Customer.Address", "Address is not valid.");
         }
 
-        Customer customer = Customer.UpdateCustomer(command.Id, command.Name,
+        Customer customer = Customer.UpdateCustomer(
+            command.Id, 
+            command.Name,
             command.LastName,
             command.Email,
             duiNumber,

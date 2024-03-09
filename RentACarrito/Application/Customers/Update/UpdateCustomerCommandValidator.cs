@@ -11,7 +11,7 @@ public class UpdateCustomerCommandValidator : AbstractValidator<UpdateCustomerCo
 
         RuleFor(r => r.Name)
             .NotEmpty()
-            .MaximumLength(50);
+            .MaximumLength(50); 
 
         RuleFor(r => r.LastName)
              .NotEmpty()
@@ -23,11 +23,10 @@ public class UpdateCustomerCommandValidator : AbstractValidator<UpdateCustomerCo
              .EmailAddress()
              .MaximumLength(255);
 
-        RuleFor(r => r.DuiNumber)
+       RuleFor(r => r.DuiNumber)
              .NotEmpty()
-             .EmailAddress()
              .MaximumLength(10)
-             .WithName("DUI Number");
+             .WithName("Phone Number");
 
         RuleFor(r => r.PhoneNumber)
              .NotEmpty()

@@ -6,7 +6,7 @@ using Application.Customers.GetAll;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using ErrorOr;
-using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
+
 
 namespace Web.API.Controllers;
 
@@ -52,25 +52,24 @@ public class Customers : ApiController
         );
     }
 
-    [HttpPut("{id}")]
-    public async Task<IActionResult> Update(Guid id, [FromBody] UpdateCustomerCommand command)
-    {
-        if (command.Id != id)
+      [HttpPut("{id}")]
+        public async Task<IActionResult> Put(Guid id, [FromBody] UpdateCustomerCommand command)
         {
-            List<Error> errors = new()
+            if(id != command.Id)
             {
-                Error.Validation("Customer.UpdateInvalid", "The request Id does not match with the url Id.")
-            };
-            return Problem(errors);
+                List<Error> errors = new() { 
+                    Error.Validation("Customer.Id", "THe request Id does nt match with the url Id")
+                };
+                return Problem(errors);
+            }
+
+            var updateCustomerResult = await _mediator.Send(command);
+
+            return updateCustomerResult.Match(
+                customers => Ok(),
+                errors => Problem(errors)
+            );
         }
-
-        var updateResult = await _mediator.Send(command);
-
-        return updateResult.Match(
-            customerId => NoContent(),
-            errors => Problem(errors)
-        );
-    }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(Guid id)
