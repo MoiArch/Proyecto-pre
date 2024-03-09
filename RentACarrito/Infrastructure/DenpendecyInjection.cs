@@ -2,15 +2,15 @@ using Application.Data;
 using Domain.Customers;
 using Domain.Primitives;
 using Domain.Reservaciones;
-using Domain.Vehiculos;
+
 using Infrastructure.Persistence.Repositories;
 using Insfraestructure.Persistence;
-using Insfraestructure.Persistence.Repositories;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Insfraestructure;
+namespace Insfrastructure;
 
 public static class DependencyInjection
 {

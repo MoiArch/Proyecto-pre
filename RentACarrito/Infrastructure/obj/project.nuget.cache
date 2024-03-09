@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L6X/tTLwyPWNpD2qdaHOQqM954JXhizkBn3iiQMHaxkl6KE/o7sPky2DY/MnFaeXYT/bdK80cY/eh6aeZleYFQ==",
+  "dgSpecHash": "WlJhfMnzhyucFB97XDov5pscxBc517ROdj7LqWR3ND+wKVf5eFEAW6wp2tiXr2NetnRfBeJsMYTG/GXc6zOfSw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\oniichan\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oniichan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\oniichan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

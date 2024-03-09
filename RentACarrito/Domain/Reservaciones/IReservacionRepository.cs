@@ -2,7 +2,7 @@ namespace Domain.Reservaciones;
 
 public interface IReservacionRepository
 {
-    Task<Reservacion?> GetByIdAsinc(ReservacionId id);
+    Task<Reservacion?> GetByIdAsync(ReservacionId id);
     Task Add(Reservacion reservacion);
 
 }

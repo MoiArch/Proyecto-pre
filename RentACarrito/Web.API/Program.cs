@@ -1,5 +1,5 @@
 using Application;
-using Insfraestructure;
+using Insfrastructure;
 using Web.API;
 using Web.API.Extensions;
 using Web.API.Middlewares;

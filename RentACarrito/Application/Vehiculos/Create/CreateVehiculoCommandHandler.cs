@@ -29,7 +29,7 @@ public sealed class CreateVehiculoCommandHandler : IRequestHandler<CreateVehicul
             command.Price
            );
 
-            await _vehiculoRepository.Add(vehiculo);
+             _vehiculoRepository.Add(vehiculo);
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
