@@ -4,14 +4,14 @@
     "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+    "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+              "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+    "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,11 +199,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
+              "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Application\\Application.csproj"
               },
-              "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
+              "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Anderson\\Documents\\Proyecto-pre\\RentACarrito\\Domain\\Domain.csproj"
               }
             }
           }
