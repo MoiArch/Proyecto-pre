@@ -31,5 +31,30 @@ public class CreateReservacionCommandValidator : AbstractValidator<CreateReserva
         .NotEmpty()
         .MaximumLength(50)
         .WithName("Date");
+
+        RuleFor(r => r.Plates)
+        .NotEmpty()
+        .MaximumLength(40)
+        .WithName("Plates");
+
+        RuleFor(r => r.Brand)
+        .NotEmpty()
+        .MaximumLength(40)
+        .WithName("Brand");
+
+        RuleFor(r => r.Model)
+        .NotEmpty()
+        .MaximumLength(40)
+        .WithName("Model");
+
+        RuleFor(r => r.Year)
+        .NotEmpty()
+        .MaximumLength(255)
+        .WithName("Year");
+
+        RuleFor(r => r.Price)
+        .NotEmpty()
+        .MaximumLength(255)
+        .WithName("Price");
     }
 }

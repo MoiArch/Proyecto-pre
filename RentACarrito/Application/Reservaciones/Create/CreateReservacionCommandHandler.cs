@@ -24,16 +24,22 @@ public sealed class CreateReservacionCommandHandler : IRequestHandler<CreateRese
                 return Error.Validation("Reservacion.PhoneNumber", "Phone Number Invalid");
             }
 
+            if (Vehicle.Create(command.Plates, command.Brand, command.Model, command.Year, command.Price) is not Vehicle vehicle)
+            {
+                return Error.Validation("Reservacion.Vehicle", "Vehicles Invalid");
+            }
+
             var reservacion = new Reservacion(
                 new ReservacionId(Guid.NewGuid()),
                 command.Name,
                 command.LastName,
                 command.Email,
                 phoneNumber,
-                command.Date
+                command.Date,
+                vehicle
             );
 
-             _reservacionRepository.Add(reservacion);
+            _reservacionRepository.Add(reservacion);
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 

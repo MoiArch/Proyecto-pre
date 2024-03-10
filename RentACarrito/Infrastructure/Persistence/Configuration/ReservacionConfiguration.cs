@@ -26,7 +26,15 @@ public class ReservacionConfiguration : IEntityTypeConfiguration<Reservacion>
             phoneNumber => phoneNumber.Value,
             value => PhoneNumber.Create(value)!);
 
-        builder.Property(c=> c.LastName).HasMaxLength(50);
+        builder.Property(c=> c.Date).HasMaxLength(50);
+        
+        builder.OwnsOne (c => c.Vehicle, vehiclebuilder =>{
+            vehiclebuilder.Property(a => a.Plates).HasMaxLength(25);
+            vehiclebuilder.Property(a => a.Brand).HasMaxLength(25);
+            vehiclebuilder.Property(a => a.Model).HasMaxLength(25);
+            vehiclebuilder.Property(a => a.Year).HasMaxLength(50);
+            vehiclebuilder.Property(a => a.Price).HasMaxLength(50);
+        });
 
     }
 }

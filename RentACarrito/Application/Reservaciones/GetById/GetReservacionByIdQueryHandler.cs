@@ -28,6 +28,12 @@ internal sealed class GetReservacionByIdQueryHandler : IRequestHandler<GetReserv
             reservacion.LastName,
             reservacion.Email,
             reservacion.PhoneNumber.Value,
-            reservacion.Date);
+            reservacion.Date,
+            new VehicleResponse(reservacion.Vehicle.Plates,
+                    reservacion.Vehicle.Brand,
+                    reservacion.Vehicle.Model,
+                    reservacion.Vehicle.Year,
+                    reservacion.Vehicle.Price)
+            );
     }
 }

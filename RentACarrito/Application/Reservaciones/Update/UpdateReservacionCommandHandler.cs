@@ -26,17 +26,22 @@ internal sealed class UpdateReservacionCommandHandler : IRequestHandler<UpdateRe
         {
             return Error.Validation("Customer.PhoneNumber", "Phone number has not valid format.");
         }
+         if (Vehicle.Create(command.Plates, command.Brand, command.Model, command.Year, command.Price) is not Vehicle vehicle)
+            {
+                return Error.Validation("Reservacion.Vehicle", "Vehicle Invalid");
+            }
+
 
         Reservacion reservacion = Reservacion.UpdateReservacion(
             command.Id, 
             command.Name,
-            command.Name,
             command.LastName,
             command.Email,
             phoneNumber,
-            command.Date);
+            command.Date,
+            vehicle);
 
-        _reservacionRepository.Update(reservacion);
+         _reservacionRepository.Update(reservacion);
 
         await _unitOfWork.SaveChangesAsync(cancellationToken);
 

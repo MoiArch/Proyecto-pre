@@ -1,12 +1,11 @@
 using Domain.Primitives;
 using Domain.ValueObjects;
-using Microsoft.Win32.SafeHandles;
 
 namespace Domain.Reservaciones;
 
-public sealed class Reservacion : AggregateRoot 
+public sealed class Reservacion : AggregateRoot
 {
-    public Reservacion(ReservacionId id, string name, string lastName, string email,PhoneNumber phoneNumber, string date)
+    public Reservacion(ReservacionId id, string name, string lastName, string email, PhoneNumber phoneNumber, string date, Vehicle vehicle)
     {
         Id = id;
         Name = name;
@@ -14,6 +13,12 @@ public sealed class Reservacion : AggregateRoot
         Email = email;
         PhoneNumber = phoneNumber;
         Date = date;
+        Vehicle = vehicle;
+    }
+
+     private Reservacion()
+    {
+
     }
 
     public ReservacionId Id { get; private set; }
@@ -22,9 +27,10 @@ public sealed class Reservacion : AggregateRoot
     public string Email { get; private set; } = string.Empty;
     public PhoneNumber PhoneNumber { get; private set; }
     public string Date { get; private set; }
-
-    public static Reservacion UpdateReservacion(Guid id, string name, string lastName, string email, string email1, PhoneNumber phoneNumber, string date)
+    public Vehicle Vehicle { get; private set; }
+   
+    public static Reservacion UpdateReservacion(Guid id, string name, string lastName, string email, PhoneNumber phoneNumber,string date, Vehicle vehicle)
     {
-         return new Reservacion(new ReservacionId(id), name, lastName, email, phoneNumber,date );
+        return new Reservacion (new ReservacionId(id), name, lastName, email, phoneNumber,date ,vehicle );
     }
 }

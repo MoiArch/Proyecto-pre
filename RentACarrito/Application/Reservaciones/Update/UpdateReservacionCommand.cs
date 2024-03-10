@@ -9,5 +9,10 @@ public record UpdateReservacionCommand(
     string LastName,
     string Email,
     string PhoneNumber,
-    string Date
+    string Date,
+    string Plates, 
+    string Brand,
+    string Model, 
+    string Year, 
+    string Price
     ) : IRequest<ErrorOr<Unit>>;
